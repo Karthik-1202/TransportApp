@@ -1,0 +1,97 @@
+2022-06-21 18:03:45.134  INFO 17212 --- [main] ortAvailabilityCheckingSystemApplication : Starting TransportAvailabilityCheckingSystemApplication using Java 17.0.3.1 on DESKTOP-L248N4T with PID 17212 (E:\CTSP\TransportAvailabilityCheckingSystem_INTADM21AJ017_POD4_AES_Project_4\TransportAvailabilityCheckingSystem_TransportAvailabilityCheckingSystem\target\classes started by karth in E:\CTSP\TransportAvailabilityCheckingSystem_INTADM21AJ017_POD4_AES_Project_4\TransportAvailabilityCheckingSystem_TransportAvailabilityCheckingSystem)
+2022-06-21 18:03:45.148  INFO 17212 --- [main] ortAvailabilityCheckingSystemApplication : No active profile set, falling back to default profiles: default
+2022-06-21 18:03:45.859  INFO 17212 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-06-21 18:03:45.929  INFO 17212 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 59 ms. Found 4 JPA repository interfaces.
+2022-06-21 18:03:46.518  INFO 17212 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-06-21 18:03:46.530  INFO 17212 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-06-21 18:03:46.530  INFO 17212 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.46]
+2022-06-21 18:03:46.765  INFO 17212 --- [main] org.apache.jasper.servlet.TldScanner     : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2022-06-21 18:03:46.775  INFO 17212 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-06-21 18:03:46.775  INFO 17212 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1570 ms
+2022-06-21 18:03:46.977  INFO 17212 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-06-21 18:03:47.037  INFO 17212 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.31.Final
+2022-06-21 18:03:47.198  INFO 17212 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-06-21 18:03:47.322  INFO 17212 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-06-21 18:03:47.693  INFO 17212 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-06-21 18:03:47.743  INFO 17212 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2022-06-21 18:03:48.541  INFO 17212 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-06-21 18:03:48.552  INFO 17212 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-06-21 18:03:49.176  WARN 17212 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-06-21 18:03:49.391  INFO 17212 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: ServletContext resource [/index.html]
+2022-06-21 18:03:49.544  WARN 17212 --- [main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'; nested exception is org.springframework.boot.web.server.PortInUseException: Port 8080 is already in use
+2022-06-21 18:03:49.547  INFO 17212 --- [main] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-06-21 18:03:49.549  INFO 17212 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2022-06-21 18:03:49.558  INFO 17212 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2022-06-21 18:03:49.561  INFO 17212 --- [main] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2022-06-21 18:03:49.574  INFO 17212 --- [main] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2022-06-21 18:03:49.590 ERROR 17212 --- [main] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8080 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8080 or configure this application to listen on another port.
+
+2022-06-21 18:04:15.847  INFO 16140 --- [main] ortAvailabilityCheckingSystemApplication : Starting TransportAvailabilityCheckingSystemApplication using Java 17.0.3.1 on DESKTOP-L248N4T with PID 16140 (E:\CTSP\TransportAvailabilityCheckingSystem_INTADM21AJ017_POD4_AES_Project_4\TransportAvailabilityCheckingSystem_TransportAvailabilityCheckingSystem\target\classes started by karth in E:\CTSP\TransportAvailabilityCheckingSystem_INTADM21AJ017_POD4_AES_Project_4\TransportAvailabilityCheckingSystem_TransportAvailabilityCheckingSystem)
+2022-06-21 18:04:15.851  INFO 16140 --- [main] ortAvailabilityCheckingSystemApplication : No active profile set, falling back to default profiles: default
+2022-06-21 18:04:16.534  INFO 16140 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-06-21 18:04:16.601  INFO 16140 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 56 ms. Found 4 JPA repository interfaces.
+2022-06-21 18:04:17.170  INFO 16140 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-06-21 18:04:17.181  INFO 16140 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-06-21 18:04:17.182  INFO 16140 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.46]
+2022-06-21 18:04:17.416  INFO 16140 --- [main] org.apache.jasper.servlet.TldScanner     : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2022-06-21 18:04:17.426  INFO 16140 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-06-21 18:04:17.426  INFO 16140 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1524 ms
+2022-06-21 18:04:17.629  INFO 16140 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-06-21 18:04:17.688  INFO 16140 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.31.Final
+2022-06-21 18:04:17.850  INFO 16140 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-06-21 18:04:17.974  INFO 16140 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-06-21 18:04:18.346  INFO 16140 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-06-21 18:04:18.382  INFO 16140 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2022-06-21 18:04:19.147  INFO 16140 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-06-21 18:04:19.158  INFO 16140 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-06-21 18:04:19.781  WARN 16140 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-06-21 18:04:19.989  INFO 16140 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: ServletContext resource [/index.html]
+2022-06-21 18:04:20.161  INFO 16140 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-06-21 18:04:20.172  INFO 16140 --- [main] ortAvailabilityCheckingSystemApplication : Started TransportAvailabilityCheckingSystemApplication in 4.755 seconds (JVM running for 5.466)
+2022-06-21 18:04:20.173  INFO 16140 --- [main] o.s.b.a.ApplicationAvailabilityBean      : Application availability state LivenessState changed to CORRECT
+2022-06-21 18:04:20.175  INFO 16140 --- [main] o.s.b.a.ApplicationAvailabilityBean      : Application availability state ReadinessState changed to ACCEPTING_TRAFFIC
+2022-06-21 18:04:36.052  INFO 16140 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-06-21 18:04:36.052  INFO 16140 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-06-21 18:04:36.053  INFO 16140 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2022-06-21 18:05:05.246  INFO 16140 --- [RMI TCP Connection(4)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2022-06-21 18:05:05.247  INFO 16140 --- [RMI TCP Connection(4)-127.0.0.1] o.s.b.a.ApplicationAvailabilityBean      : Application availability state ReadinessState changed from ACCEPTING_TRAFFIC to REFUSING_TRAFFIC
+2022-06-21 18:05:12.403  INFO 4356 --- [main] ortAvailabilityCheckingSystemApplication : Starting TransportAvailabilityCheckingSystemApplication using Java 17.0.3.1 on DESKTOP-L248N4T with PID 4356 (E:\CTSP\TransportAvailabilityCheckingSystem_INTADM21AJ017_POD4_AES_Project_4\TransportAvailabilityCheckingSystem_TransportAvailabilityCheckingSystem\target\classes started by karth in E:\CTSP\TransportAvailabilityCheckingSystem_INTADM21AJ017_POD4_AES_Project_4\TransportAvailabilityCheckingSystem_TransportAvailabilityCheckingSystem)
+2022-06-21 18:05:12.407  INFO 4356 --- [main] ortAvailabilityCheckingSystemApplication : No active profile set, falling back to default profiles: default
+2022-06-21 18:05:13.080  INFO 4356 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-06-21 18:05:13.154  INFO 4356 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 61 ms. Found 4 JPA repository interfaces.
+2022-06-21 18:05:13.732  INFO 4356 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-06-21 18:05:13.752  INFO 4356 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-06-21 18:05:13.752  INFO 4356 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.46]
+2022-06-21 18:05:13.978  INFO 4356 --- [main] org.apache.jasper.servlet.TldScanner     : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2022-06-21 18:05:13.988  INFO 4356 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-06-21 18:05:13.988  INFO 4356 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1530 ms
+2022-06-21 18:05:14.187  INFO 4356 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-06-21 18:05:14.248  INFO 4356 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.31.Final
+2022-06-21 18:05:14.411  INFO 4356 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-06-21 18:05:14.534  INFO 4356 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-06-21 18:05:14.919  INFO 4356 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-06-21 18:05:14.955  INFO 4356 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2022-06-21 18:05:15.706  INFO 4356 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-06-21 18:05:15.718  INFO 4356 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-06-21 18:05:16.336  WARN 4356 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-06-21 18:05:16.544  INFO 4356 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: ServletContext resource [/index.html]
+2022-06-21 18:05:16.713  INFO 4356 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-06-21 18:05:16.723  INFO 4356 --- [main] ortAvailabilityCheckingSystemApplication : Started TransportAvailabilityCheckingSystemApplication in 4.759 seconds (JVM running for 5.466)
+2022-06-21 18:05:16.724  INFO 4356 --- [main] o.s.b.a.ApplicationAvailabilityBean      : Application availability state LivenessState changed to CORRECT
+2022-06-21 18:05:16.726  INFO 4356 --- [main] o.s.b.a.ApplicationAvailabilityBean      : Application availability state ReadinessState changed to ACCEPTING_TRAFFIC
+2022-06-21 18:06:00.873  INFO 4356 --- [RMI TCP Connection(4)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2022-06-21 18:06:00.874  INFO 4356 --- [RMI TCP Connection(4)-127.0.0.1] o.s.b.a.ApplicationAvailabilityBean      : Application availability state ReadinessState changed from ACCEPTING_TRAFFIC to REFUSING_TRAFFIC
